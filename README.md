@@ -3,6 +3,8 @@
 ## Project Overview
 This repository contains the MATLAB simulation and comparative analysis of advanced control architectures applied to a discrete-time NEMA 23 Hybrid Stepper Motor. The project evaluates the efficacy of batch-learning versus real-time adaptive control in mitigating unmodeled dynamics, measurement noise, and discontinuous friction.
 
+📄 **[Read the Full Technical Report Here](StepperMotorControl_Report.pdf)** *(Note: Click "View raw" or download the PDF to ensure the internal document links work correctly).*
+
 Three specific control topologies are benchmarked against a 1 Hz sinusoidal reference trajectory:
 1. **Baseline PID Control:** Establishes the uncompensated error and noise floor.
 2. **Iterative Learning Control (ILC):** Implements a lifted-system matrix approach ($G^{-1}$) with a zero-phase Q-filter to achieve noise-level tracking over repetitive trials.
